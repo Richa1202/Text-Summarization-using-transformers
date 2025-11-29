@@ -1,6 +1,6 @@
 # Text Summarization using Transformers
 
-A deep learning project that implements a Transformer-based sequence-to-sequence model for abstractive text summarization using TensorFlow.
+A deep learning project that implements a Transformer based sequence to sequence model for abstractive text summarization using TensorFlow.
 
 ## Environment Setup
 
@@ -25,7 +25,7 @@ pandas
 
 ## Current Status
 
-⚠️ **Note**: This model is currently generating incorrect/incoherent summaries. The model capacity is limited due to hardware constraints (no GPU available for testing). The current configuration uses:
+**Note**: This model is currently generating incorrect summaries. The model capacity is limited due to hardware constraints (no GPU available for testing). The current configuration uses:
 
 - 2 encoder/decoder layers
 - d_model = 64
